@@ -1,0 +1,5 @@
+Insatll lua script
+In the Administrator Mode CMD window, run the following command. In the [LUA script file name] section, replace the LUA script file name you want to copy.
+copy /Y ".\[LUA script file name].lua" "C:\Program Files\Wireshark\plugins\[LUA script file name].lua"
+It is automatically reflected when you run Wireshark.
+If Wireshark is running, it will be applied dynamically when Ctrl+Shift+L is entered.
